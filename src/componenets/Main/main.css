@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.nike {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+.nike-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 108px;
+    width: 595px;
+    color: #000000;
+    line-height: 102px;
+}
+
+.nike-description {
+    margin-top: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 404px;
+    line-height: 24px;
+    color: #5A5959;
+    margin-bottom: 36px;
+}
+
+.nike-buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.nike-btn_1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #ffffff;
+    padding: 6px 16px;
+    background: #D01C28;
+    border: unset;
+}
+
+.nike-btn_2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #5A5959;
+    border: 1px solid #000000;
+    padding: 6px 16px;
+}
